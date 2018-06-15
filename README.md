@@ -6,7 +6,7 @@
 
 [Главная страница](https://onlinealex.github.io/22_proto_markup/)
 
-[Заявки](https://onlinealex.github.io/22_proto_markup/leads.html)
+[Заявки](https://onlinealex.github.io/22_proto_markup/leads)
 
 
 # Как изменять
