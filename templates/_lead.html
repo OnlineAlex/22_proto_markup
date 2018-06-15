@@ -1,0 +1,17 @@
+{% for id in ids %}
+<div class="lead">
+<div class="row justify-content-between">
+  <p class="col-auto pt-1 mb-1">{{ id['date'] }}, в {{ id['time'] }}</p>
+  <p class="col-auto text-right mb-3"><a href="#" class="link-black">
+    <span class="oi oi-star align-middle"></span><span class="align-text-top pl-1">в закладки</span>
+  </a></p>
+</div>
+  <p>{{ id['text'] }}</p>
+  <p>{{ id['name'] }}</p>
+  <p><a class="btn btn-info" id="showPhone" data-toggle="collapse" href="#" role="button">
+    Показать телефон
+  </a>
+  <span class="align-bottom pl-2 small no-wrap">{{ id['views'] }}</span></p>
+  <hr class="my-1">
+</div>
+{% endfor %}
