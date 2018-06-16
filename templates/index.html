@@ -10,7 +10,7 @@
     </ul>
   </div>
 </div>
-<div class="container">
+<div class="container lead-form">
   <div class="row">
     <div class="col-lg-8 col-md-10 col-12 offset-lg-2 offset-md-1">
       <h1 class="text-center">ВАМ ПОЗВОНЯТ ЛУЧШИЕ ПОСТАВЩИКИ НОВОСИБИРСКА</h1>
@@ -38,7 +38,7 @@
               </div>
             </div>
           <div class="form-group row">
-            <div class="col-lg-10 col-md-19 col-12 mt-2 offset-lg-2 offset-md-3 pl-1">
+            <div class="col-lg-10 col-md-9 col-12 mt-2 offset-lg-2 offset-md-3 pl-1">
             <select class="border-0 link-black bg-light">
               <option>Новосибирск и область</option>
               <option>Астрахань и область</option>
@@ -49,7 +49,7 @@
         <div class="form-group row">
             <label for="DescriptionLead" class="col-lg-2 col-md-3 col-auto text-right col-form-label pr-0">Описание *</label>
           <div class="col-xl-10 col-md-9 col-12">
-            <textarea class="form-control" id="DescriptionLead" aria-describedby="DescriptionHelp" rows="2"></textarea>
+            <textarea class="form-control rounded-0" id="DescriptionLead" aria-describedby="DescriptionHelp" rows="2"></textarea>
             <small id="DescriptionHelp" class="form-text text-muted">
               Пример: нужно фбс 24.4.6 50 шт плиты пк 20 ПК 60-20-12 доставка в Новолуговое
             </small>
@@ -92,22 +92,22 @@
             </select>
         </div>
       </div>
-        <hr class="my-1">
+        <hr class="mb-0 leads-hr">
         {% include '_lead.html' %}
         <div class="row">
-        <button type="submit" class="btn-lg leads-btn">Посмотреть все заявки</button>
+        <a href="leads.html" class="btn text-dark btn-lg leads-btn">Посмотреть все заявки</a>
     </div>
         </div>
   </div>
 <div class="container my-4">
   <div class="row align-items-center">
-    <div id="carouselExampleControls" class="carousel slide col-md-8 col-xl-6 offset-xl-3 offset-md-2" data-interval="false" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide col-md-6 offset-md-3" data-interval="false" data-ride="carousel">
       <div class="carousel-inner">
       {% for i in range(3) %}
       <div class="carousel-item {% if i==0 %}active{% endif %}">
         <div class="row py-2 testimonials mx-5">
           <div class="col-lg-2 col-4 offset-sm-0 offset-4 text-center pt-1">
-            <img src="static/img/wisdom.svg" alt="Фото автора">
+            <img src="/static/img/wisdom.svg" alt="Фото автора">
           </div>
           <div class="col-lg-10 col-sm-8 pt-3 pt-sm-0 pl-sm-0">
             <p class="font-weight-bold small mb-0">Кирилл, 29 лет, г. Барабинск</p>
@@ -129,7 +129,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <div class="col-xl-3 col-lg-2 mt-3 mt-lg-0 text-center">
+    <div class="col-md-3 mt-3 mt-md-0 text-center">
       <button type="submit" class="btn btn-outline-dark rounded-0">Оставить отзыв</button>
     </div>
   </div>
