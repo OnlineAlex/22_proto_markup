@@ -8,7 +8,7 @@
 </div>
   <p>{{ id['text'] }}</p>
   <p>{{ id['name'] }}</p>
-  <p><a class="btn btn-info" id="showPhone" data-toggle="collapse" href="#" role="button">
+  <p><a class="btn btn-info" id="showPhone{{ loop.index }}" data-toggle="collapse" href="#" role="button">
     Показать телефон
   </a>
   <span class="align-bottom pl-2 small no-wrap">{{ id['views'] }}</span></p>
