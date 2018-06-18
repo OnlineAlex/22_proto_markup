@@ -1,0 +1,112 @@
+.leads-hr {
+  border-top: 1px solid rgba(0,0,0,0.3)!important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  color: black!important;
+}
+
+.link-blue {
+  text-decoration: underline;
+  color: #AACCFF!important;
+  cursor: pointer;
+}
+
+.link-black {
+  text-decoration: underline;
+  color: #000000!important;
+  cursor: pointer;
+}
+
+.no-wrap {
+  white-space: nowrap!important;
+}
+
+.lead-form {
+
+}
+
+.lead-btn {
+  margin: 0 auto;
+  border-radius: 2em!important;
+  border: 2px solid #17a2b8!important;
+}
+
+.leads-btn {
+  margin: 1em auto;
+  padding: 0 1em;
+  border-radius: 2em!important;
+  border: 2px solid #000000!important;
+  background-color: transparent;
+}
+
+.leads-btn:hover {
+  background-color: #ebebeb;
+}
+
+.lead {
+  font-weight: 400!important;
+}
+
+.border-form {
+  border: 4px solid #000000;
+  padding: 1em;
+}
+.logo:before {
+  font-size: 4em;
+}
+
+.leads-pagination{
+  margin: 2em 0 5em;
+
+}
+
+.leads-pagination .page-item:not(:disabled):not(.disabled) .page-link {
+  color: black!important;
+}
+
+.testimonials {
+  border: 3px solid #818182;
+}
+
+.testimonials img {
+  width: 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")!important;
+}
+
+.carousel-control-next-icon {
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")!important;
+}
+
+@media (max-width : 1200px) {
+  .lead-form h1{
+    font-size: 2.4rem!important;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width : 995px) {
+  .lead-form h1{
+    font-size: 2rem!important;
+  }
+}
+
+@media (min-width : 568px) and (max-width : 767px) {
+  .lead-form h1{
+    font-size: 2rem!important;
+  }
+}
+
+@media (max-width : 567px) {
+  .lead-form h1{
+    font-size: 1.4rem!important;
+  }
+  .pl-xs-0 {
+    padding-left: 0!important;
+  }
+}
+
+
