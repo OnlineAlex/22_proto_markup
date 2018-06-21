@@ -13,7 +13,6 @@ if __name__ == '__main__':
     }
 
     static = glob.glob(os.path.join(os.getcwd(), "static.*"))[0]
-    print(static, context['STATIC_URL'])
     os.rename(static, context['STATIC_URL'])
 
     site = make_site(contexts=[('index.html', context), ('leads.html', context)])
